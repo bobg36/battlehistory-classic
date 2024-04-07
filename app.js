@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchBattleHistory(requesterAddress) {
-    fetch(`https://api-gateway.skymavis.com/classic/v1/community/users/${requesterAddress}/battle-histories?limit=100&offset=10`, {
+    fetch(`https://api-gateway.skymavis.com/classic/v1/community/users/${requesterAddress}/battle-histories?limit=100&offset=0`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
